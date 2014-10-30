@@ -1,0 +1,34 @@
+/*
+ Theme Name:   Dynamic News Child
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  Twenty Fourteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     dynamic-news-lite
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  dynamic-news-child
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+#comments{
+	margin: 0 0 0 0;
+	padding: 0 0;
+}
+/*.widget-category-posts .more-posts .postmeta .sep{
+	display: none;
+}*/
+.postmeta .sep, .postmeta .post-edit-link {
+	display: none;
+}
+#llicencia{
+	width:50%;
+	margin:0,0,0,0;
+}
+#credit-link{
+	width:50%;
+	text-align:right;
+}
