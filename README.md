@@ -1,4 +1,4 @@
-temaMaig
+TemaMaig
 ========
 
 Tema de WorpPress per la *Revista Maig* de la *Joventut Comunista de Catalunya* (*JCC*).
@@ -12,3 +12,4 @@ Fitxers:
 - functions.php
 - page.php
 - style.css
+- /inc/template-tags.php
