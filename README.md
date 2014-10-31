@@ -2,7 +2,7 @@ temaMaig
 ========
 
 Tema de WorpPress per la *Revista Maig* de la *Joventut Comunista de Catalunya* (*JCC*).
-Basat en Dynamic News.
+Basat en [Dynamic News](https://wordpress.org/themes/dynamic-news-lite).
 
 Fitxers:
 - README.md
