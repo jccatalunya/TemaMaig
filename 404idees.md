@@ -6,4 +6,5 @@ Random entre:
  - El Che: parafrasejant *Crear dos, tres... muchos Viet-Nam, es la consigna*
  - Lenin dels Simpsons
  - Estació Mir
+ - Gramsci: Monstres o hegemonia
  
