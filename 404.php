@@ -1,35 +1,30 @@
 <?php get_header(); ?>
-
+	
 	<div id="wrap" class="container clearfix">
 		
 		<section id="content" class="primary" role="main">
 
 			<div class="type-page">
-			
-				<h2 class="page-title"><?php _e('Error 404: No Trobat', 'dynamicnewslite'); ?></h2>
+			<?php
+						$random = rand(1,10);
+						if ($random <6){
+							//Yuri Gagarin
+							echo '<h2 class="page-title">Error 404: He mirat i mirat, però no he vist a Déu</h2>';
 				
-				<div class="entry">
-					<p><?php _e("la pàgina que busques no existeix, o ha canviat d'enllaç.", 'dynamicnewslite'); ?></p>
-					
-					<h2><?php _e('Busca', 'dynamicnewslite'); ?></h2>
-					<?php get_search_form(); ?>
-
-					<h2><?php _e('Publicacions Recents', 'dynamicnewslite'); ?></h2>
-					<ul>
-						<?php
-							$recent_posts = wp_get_recent_posts(array('numberposts' => '8', 'post_status' => 'publish'));
-							foreach( $recent_posts as $recent ) {
-								echo '<li><a href="' . esc_url(get_permalink($recent['ID'])) . '" title="Look '.esc_attr($recent['post_title']).'" >' . $recent['post_title'] . '</a></li>';
-							}
-						?>
-					</ul>
-					
-					<h2><?php _e('Pàgines', 'dynamicnewslite'); ?></h2>
-					<ul>
-						<?php wp_list_pages('title_li='); ?>
-					</ul>
-				</div>
+							echo '<div class="entry">';
+								echo '<img src="http://www.maig.cat/wp-content/uploads/2014/11/gagarin.jpg" height="660" width="660">';
+							echo '</div>';
+							
+						}else{
+							//Kruschev
+							echo "<h2 class='page-title'>Error 404: Aquesta pàgina no es troba disponible després de la desestanilintació d'aquesta revista</h2>";
 				
+							echo'<div class="entry">';
+								echo '<img src="http://www.maig.cat/wp-content/uploads/2014/11/kruschev.jpg" height="267" width="369">';
+							echo'</div>';
+							
+						};
+					?>
 			</div>
 
 		</section>
