@@ -13,3 +13,4 @@ Fitxers:
 - page.php
 - style.css
 - /inc/template-tags.php
+- 404.php
